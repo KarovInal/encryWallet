@@ -1,0 +1,1 @@
+export const getPortfolio = state => state.portfolio;

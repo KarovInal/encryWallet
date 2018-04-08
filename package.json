@@ -1,0 +1,38 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./layout/index.html",
+    "build": "parcel build ./layout/index.html -d ./build"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "express": "^4.16.3",
+    "parcel-bundler": "^1.7.0",
+    "react-chartjs": "^1.2.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "blake-hash": "^1.1.0",
+    "bs58": "^4.0.1",
+    "chart.js": "^2.7.2",
+    "components": "^0.1.0",
+    "crypto-js": "^3.1.9-1",
+    "keypair": "^1.0.1",
+    "material-ui": "^1.0.0-beta.40",
+    "react": ">=15",
+    "react-chartjs-2": "^2.7.0",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "typeface-roboto": "^0.0.54"
+  }
+}
