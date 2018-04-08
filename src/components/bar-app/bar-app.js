@@ -11,7 +11,7 @@ class BarApp extends Component {
     return (
       <AppBar position="static" color="primary">
         <Toolbar>
-          <Typography color="inherit">EncryCore</Typography>
+          <Typography color="inherit">EncryptoTel</Typography>
         </Toolbar>
       </AppBar>
     )

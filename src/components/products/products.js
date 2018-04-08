@@ -14,7 +14,6 @@ const styles = {
   }
 }
 
-
 @withStyles(styles)
 class Products extends Component {
   render() {
